@@ -5,7 +5,7 @@ import streamlit as st
 # ajouter image
 
 from PIL import Image
-img = Image.open("imc.png")
+img = Image.open("/workspaces/MiniProjet_streamlit/.venv/imc.png")
 st.image(img, width=400)
 
 # give a title to our app
